@@ -1,0 +1,128 @@
+body{
+    font-family:sans-serif;
+    margin: 0;
+    padding: 0;;
+}
+.navbar{
+    height: 60px;
+    text-align: right;
+    position: fixed;
+    width: 80%;
+}
+ul{
+    list-style-type: none;
+    background-color: #1fa67a;
+    border-right-width: 20px;
+    padding: 20px;
+    margin: 0;
+    border: 2px solid white;
+}
+ul li {
+    display: inline; 
+  }
+ul li a {
+    padding: 14px 16px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+  }
+  .project-lists li {
+    padding: 14px 16px;
+    text-decoration: none;
+    color: whitesmoke;
+  }
+.container{
+    width: 80%;
+    margin: auto;
+}
+.child-container{
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    padding-top: 34px;
+}   
+.heading2{
+    margin-bottom: 0px;
+    margin-top:12px
+}
+img {
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    margin-top: 50px;
+}
+.heading1{
+    color: #04AA6D;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.child-container p {
+    margin: 0 25%;
+}
+form input{
+    margin: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 20px;
+    width: 30%;
+    border-radius: 5px;
+}
+.fa{
+	padding: 12px;
+	margin: 8px;
+	border-radius: 50%;
+	font-size: 18px;
+	background-color: #1fa67a;
+}
+footer {
+    text-align: center;
+    padding: 2px;
+    background-color:#1fa67a ;
+    color: white;
+    height: 55px;
+    border: 2px solid white;
+  }
+  .project-lists{
+    font-weight: bold; 
+    display: inline-block;
+    color: cornsilk;
+   text-align: justify;
+   padding: 20px;
+   margin: 30px; 
+  }
+  div.navbar li a:hover{
+      background-color:white;
+      border-radius: 10px;
+      opacity: 1;
+      color:#1fa67a ;
+  }
+  .burger div{
+	width: 25px;
+	height: 3px;
+	background-color: white;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.burger{
+	display: none;
+}
+@media screen and (max-width: 800px){
+    .navbar{
+        width: 80%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+    }
+	.burger{
+		display: block;
+        /* float: right; */
+	}
+}
+@media screen and (max-width: 1000px){
+	.navbar{
+	width: 80%;
+	}
+    
+}
