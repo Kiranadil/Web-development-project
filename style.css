@@ -5,6 +5,7 @@ body{
 .container{
     width: 100%;
     margin: auto;
+    padding: 0px;
 }
 .child-container{
     text-align: center;
@@ -32,6 +33,7 @@ ul li {
    padding: 20px;
    padding-top: 12px;
    padding-bottom:15px;
+   font-size: 22px;
   }
 ul li a {
     text-decoration: none;
@@ -44,8 +46,15 @@ ul li a {
     text-align: center;
   }
 .child-container p{
-    margin: 0 25%;
-}.project-lists{
+    margin: 0 15%;
+    font-size:20px;
+}
+hr{
+    width: 40px;
+    margin: 20px auto;
+    opacity: 8;
+}
+.project-lists{
     width: 60%;
 }
 .heading2{
@@ -54,12 +63,11 @@ ul li a {
 }
 .image {
     border-radius: 50%;
-    height: 180px;
-    width: 180px;
+    width: 30%;
     margin-top: 5em;
 }
 .project-lists img{
-    width: 40%;
+    width: 70%;
 
 }
 .heading1{
@@ -114,6 +122,9 @@ div.navbar li a:hover{
 	cursor: pointer;
 }
 
+.nav-lists.li {
+    padding: 10px 20px;
+}
 .burger{
 	display: none;
 }
@@ -147,4 +158,9 @@ nav li a {
 		display: flex;
 		flex-direction: column;
     }
+}
+@media screen and  (min-width: 1000px){
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 100%;
+}
 }
